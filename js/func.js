@@ -2,9 +2,12 @@ function info(word) {
     console.log(word +"hello");
 }
 
+var a = parseInt(prompt('a'));
+var b = parseInt(prompt('b'));
+
 function summa(a, b) {
     var res = a + b;
-    info(res);
+    console.log(res);
 }
 
 function sumArr(arr) {
@@ -15,7 +18,7 @@ function sumArr(arr) {
 }
 
 
-summa(5,8);
+summa(a, b);
 info("hello ");
 
 var array = [5, 66, 1];
